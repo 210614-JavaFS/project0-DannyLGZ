@@ -96,7 +96,7 @@ public class AccountDAOImpl implements AccountDAO{
 	@Override
 	public void withdraw(Account account, double amount) {
 		try(Connection conn = ConnectionUtil.getConnection()){
-			String sql = "UPDATE customers SET balance = ? "
+			String sql = "UPDATE accounts SET balance = ? "
 					+ "WHERE acc_number = ?;";
 			PreparedStatement statement = conn.prepareStatement(sql);
 			if ((amount >= 0) && (amount<= account.getBalance())) {

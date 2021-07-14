@@ -27,3 +27,15 @@
 17:52:22.177 [] [main] INFO  Daos.AccountDAOImpl - saving account 7109: Deposit $50.0
 17:59:22.433 [] [main] INFO  Daos.EmployeeDAOImpl - null approved checking 78143
 22:13:02.463 [] [main] INFO  Daos.EmployeeDAOImpl - null approved null 0
+23:41:38.329 [] [main] INFO  models.Login - tester login.
+00:39:50.296 [] [main] INFO  models.Login - tester login.
+00:40:31.201 [] [main] INFO  models.Login - tester login.
+00:43:56.628 [] [main] INFO  models.Login - tester login.
+00:44:47.994 [] [main] INFO  Daos.AccountDAOImpl - saving account 9762: Deposit $100.0
+00:46:11.164 [] [main] INFO  models.Login - Employee bob.lee login.
+00:46:41.860 [] [main] INFO  Daos.EmployeeDAOImpl - null approved checking 32672
+00:47:01.174 [] [main] INFO  Daos.EmployeeDAOImpl - null approved checking 96608
+00:49:12.111 [] [main] INFO  models.Login - Employee jesse.mccree login.
+00:49:29.058 [] [main] INFO  Daos.EmployeeDAOImpl - null rejected checking 78143
+00:51:29.939 [] [main] INFO  models.Login - Employee jesse.mccree login.
+00:52:04.295 [] [main] INFO  Daos.AccountDAOImpl - checking account 10382: Deposit $50.0

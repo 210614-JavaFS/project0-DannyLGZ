@@ -39,7 +39,7 @@ public class EmployeeDAOImpl implements EmployeeDAO{
 				System.out.println("The account application has been approved.");
 				log.info(employee.getUserId()+" approved "+account.getAccType()+" "+account.getAccNumber());
 			}else if(option.toLowerCase().equals("deny")) {
-				String newAccount = "DELETE FROM customers WHERE acc_number = ?;";
+				String newAccount = "DELETE FROM accounts WHERE acc_number = ?;";
 
 				PreparedStatement statement = conn.prepareStatement(newAccount);
 				statement.setInt(1, account.getAccNumber());

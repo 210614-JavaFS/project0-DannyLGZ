@@ -87,7 +87,8 @@ INSERT INTO accounts (user_id, user_password,acc_type, acc_number,balance,acc_st
 	('tester','123','checking',10382,250.74,TRUE,001),
 	('tester1','idontknow','checking',46805,7516.74,TRUE,003),
 	('tester2','whatsthat','saving',7109,500,TRUE,002),
-	('tester2','cantremember','checking',78143,0,FALSE,0);
+	('tester2','whatsthat','checking',78143,0,FALSE,0),
+	('tester3','cantremember','checking',16709,1800,TRUE,2);
 	
 
 

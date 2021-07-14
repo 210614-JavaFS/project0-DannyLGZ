@@ -156,7 +156,7 @@ public class AccountService {
 		System.out.println("Please enter account number to close.");
 		int accNumber = Integer.parseInt(scan.nextLine());
 		try(Connection conn = ConnectionUtil.getConnection()){
-			String checkAccNumber = "SELECT * FROM customers WHERE (acc_number = ? AND acc_status = ?);";
+			String checkAccNumber = "SELECT * FROM accounts WHERE (acc_number = ? AND acc_status = ?);";
 			PreparedStatement statement = conn.prepareStatement(checkAccNumber);
 			statement.setInt(1, accNumber);
 			statement.setBoolean(2, true);
