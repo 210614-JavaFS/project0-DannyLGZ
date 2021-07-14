@@ -1,0 +1,29 @@
+21:52:41.104 [] [main] WARN  Daos.CustomerDAOImpl - tom cool tried to deposit with invalid input.
+21:53:10.334 [] [main] WARN  Daos.CustomerDAOImpl - tom cool tried to deposit with invalid input.
+22:52:28.655 [] [main] WARN  Daos.CustomerDAOImpl - tom cool tried to withdraw with invalid input.
+22:47:31.882 [] [main] WARN  Daos.CustomerDAOImpl - sammi love tried to deposit with invalid input.
+15:37:18.026 [] [main] INFO  models.Login - tom cool login
+15:37:42.328 [] [main] INFO  Daos.CustomerDAOImpl - tom cool deposit $100.0 from account 8632
+12:35:51.901 [] [main] INFO  models.Login - Employee ana.amari login.
+14:12:36.670 [] [main] INFO  models.Login - Employee ana.amari login.
+14:14:14.287 [] [main] INFO  models.Login - Employee jesse.mccree login.
+14:14:39.430 [] [main] INFO  models.Login - Employee jesse.mccree login.
+16:16:21.759 [] [main] INFO  models.Login - tester login.
+16:21:18.339 [] [main] INFO  models.Login - tester login.
+16:51:23.679 [] [main] INFO  Daos.CustomerDAOImpl - java fun registered an login account.
+16:58:25.181 [] [main] INFO  models.Login - tester login.
+17:18:17.543 [] [main] INFO  models.Login - tester login.
+17:21:37.303 [] [main] WARN  Daos.CustomerDAOImpl - saving 9762 tried to deposit with invalid input.
+17:22:01.578 [] [main] INFO  Daos.AccountDAOImpl - saving account 9762: Deposit $100.0
+17:22:33.869 [] [main] INFO  models.Login - tester login.
+17:32:07.150 [] [main] INFO  models.Login - tester login.
+17:35:05.572 [] [main] INFO  models.Login - tester login.
+17:36:52.219 [] [main] INFO  models.Login - tester login.
+17:38:19.043 [] [main] INFO  models.Login - tester login.
+17:45:07.761 [] [main] INFO  models.Login - tester login.
+17:48:20.570 [] [main] INFO  models.Login - tester login.
+17:48:33.005 [] [main] INFO  Daos.AccountDAOImpl - saving 9762 transferred $100.0 to checking 10382
+17:50:33.864 [] [main] INFO  models.Login - Employee jesse.mccree login.
+17:52:22.177 [] [main] INFO  Daos.AccountDAOImpl - saving account 7109: Deposit $50.0
+17:59:22.433 [] [main] INFO  Daos.EmployeeDAOImpl - null approved checking 78143
+22:13:02.463 [] [main] INFO  Daos.EmployeeDAOImpl - null approved null 0
